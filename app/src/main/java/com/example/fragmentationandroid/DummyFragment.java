@@ -21,7 +21,7 @@ public class DummyFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view =  inflater.inflate(R.layout.fragment_dummy, container, false);
-        TextView textView = view.findViewById(R.id.fragmentText);
+        view.findViewById(R.id.fragmentText);
         //Logic goes here
 
 

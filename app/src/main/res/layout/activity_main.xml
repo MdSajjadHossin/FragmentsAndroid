@@ -8,20 +8,61 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <fragment
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:name="com.example.fragmentationandroid.DummyFragment"
-        android:id="@+id/fragment1"
-        />
 
-    <fragment
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:name="com.example.fragmentationandroid.Dummy2Fragment"
-        android:id="@+id/fragment2"
-        />
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment-1"
+            android:layout_weight="1"
+            android:id="@+id/fragmentBtn1"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment-2"
+            android:layout_weight="1"
+            android:id="@+id/fragmentBtn2"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment-3"
+            android:layout_weight="1"
+            android:id="@+id/fragmentBtn3"
+            android:layout_marginRight="10dp"
+            />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frameContainer"/>
+
+<!--    <fragment-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:name="com.example.fragmentationandroid.DummyFragment"-->
+<!--        android:id="@+id/fragment1"-->
+<!--        />-->
+
+<!--    <fragment-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:name="com.example.fragmentationandroid.Dummy2Fragment"-->
+<!--        android:id="@+id/fragment2"-->
+<!--        />-->
+
+
 
 </LinearLayout>
